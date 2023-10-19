@@ -1,0 +1,119 @@
+body{
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	}
+
+.divv{
+	margin:0;
+	padding:0;
+	background-color: transparent;
+	border-width: 2px;
+	border-style: solid;
+	}
+
+h3{
+	color:white;
+	font-family:Arial;
+	font-size:40px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	}
+
+.body_bg{
+	/*background:url(/surgeweb/shared/img/gradient_huge.jpg) repeat-x;*/
+	}
+
+.body_bg2{
+	/*background:#A0BFE8 url(/surgeweb/shared/img/gradient_huge.jpg) repeat-x;*/
+	}
+
+.hidden{
+	display:none;
+	}
+
+.formrow{
+	border: 0px;
+	clear: both;
+	margin-top: 10px;
+	}
+
+.prompt{
+	width: 160px;
+	margin-right:10px;
+	text-align: right;
+	float: left;
+	color: #000;
+   	font-weight:bold;
+	}
+
+.element{
+	border: 0px;
+	text-align: left;
+	margin-left: 130px;
+	font-weight: normal;
+	}
+
+.loginbutton{
+	font-weight:bold;
+	color:#000;
+	background-color:#DDDDDD;
+	border-style:solid;
+	border-color:#000;
+	}
+
+#cmd_login{
+	width:120px;
+	}
+
+#error{
+	color:#DD0000;
+	text-align: center;
+	width: 500px;
+	margin-top:5px;
+	margin-bottom:15px;
+	font-weight:bold;
+	font-size:11px;
+	}
+
+#error .surgeweb{
+	font-size:14px;
+	}
+
+    fieldset {
+        display: block;
+        margin-inline-start: 2px;
+        margin-inline-end: 2px;
+        padding-block-start: 0.35em;
+        padding-inline-start: 0.75em;
+        padding-inline-end: 0.75em;
+        padding-block-end: 0.625em;
+        min-inline-size: min-content;
+        border-width: 2px;
+        border-style: groove;
+        border-color: rgb(192, 192, 192);
+        border-image: initial;
+    }
+
+    legend {
+        
+        /* padding-inline-start: 2px;
+        padding-inline-end: 2px; */
+        border-width: initial;
+        border-style: none; 
+         border-color: initial;
+        border-image: initial;
+        font-size: 16px;
+
+       
+        width: 180px;
+        
+    }
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    
